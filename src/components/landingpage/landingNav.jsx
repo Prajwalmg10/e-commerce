@@ -1,4 +1,5 @@
-import { Button, Container, Nav, Navbar } from "react-bootstrap";
+import {  Container, Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const LandingNav=()=>{
     return(
@@ -7,8 +8,8 @@ const LandingNav=()=>{
                     <Container>
                         <Navbar.Brand href="/">Navbar</Navbar.Brand>
                         <Nav>
-                            <Nav.Link className="text-success" href="">Sign Up</Nav.Link>
-                            <Button variant="primary">Login</Button>
+                            <Nav.Link className="text-success me-4" href="/signup">Sign Up</Nav.Link>
+                            <Link to={`/login`} className="btn btn-primary">Login</Link>
                         </Nav>
                     </Container>
                 </Navbar>
