@@ -19,7 +19,7 @@ const Login = () => {
     return (<div className="Login">
         <LandingNav/>
         <div className="login_div">
-                <div className="col-lg-5 bg-light p-lg-5">
+                <div className="login_form col-sm-6 col-lg-5 p-sm-4 p-lg-5 ">
                     <form action="" onSubmit={login} className="">
                         <h1 className="">Login</h1>
                         <div className="email text-black form-floating m-lg-3">
