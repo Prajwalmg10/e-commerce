@@ -5,22 +5,35 @@
    justify-content: center;
    align-items: center;
 }
+.landingNav{
+    background-color: aliceblue;
+    border-bottom: 0.5px solid rgba(151, 151, 151, 0.658);
+    position: sticky;
+    top: 0;
+}
 
 .landingwhy{
     background: linear-gradient(rgba(96, 228, 255, 0.306),rgba(97, 229, 255, 0.096));
 }
 .login_form{
-    background-color: rgb(255, 255, 255);
+    background-color:aliceblue;
+    width: 400px;
+    height: 400px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 10px 30px;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px gray;
+}
+.login_form:hover{
+    box-shadow: 0px 0px 20px gray;
 }
 .login_div{
     height: 92vh;
     display: flex;
-    padding: 20px 30px;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(rgba(96, 228, 255, 0.306),rgba(97, 229, 255, 0.096));
 }
 
@@ -28,7 +41,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 92vh;
+    border: 2px solid black;
+    border-radius: 20px;
 }
 
 .signup-form {
